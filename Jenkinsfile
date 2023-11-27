@@ -18,6 +18,7 @@ pipeline{
             steps{
                 echo " The pens should be blue"
                 echo " Do not share black inks"
+                echo "corrected something from the code"
             }
         }
         stage("black"){
