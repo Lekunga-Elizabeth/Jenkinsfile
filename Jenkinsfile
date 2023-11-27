@@ -5,6 +5,7 @@ pipeline{
             steps{
                 echo "This books are not for sell"
                 echo "we need to distribute them"
+                input("please confirm if you need the pens")
             }
         }
         stage("pens"){
